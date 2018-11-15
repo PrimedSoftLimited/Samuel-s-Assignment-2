@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginLeft="45dp"
+    android:layout_marginRight="45dp"
+    android:background="#CDDC39">
+
+    <TextView
+        android:id="@+id/vev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vevo"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/input_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:layout_below="@id/vev"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:drawableRight="@drawable/vpn_key"
+        android:drawableEnd="@drawable/vpn_key"
+        android:layout_below="@id/input_mail"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="don't have an account?"
+        android:textAllCaps="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/input_password"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/vev"
+        android:layout_below="@id/input_password"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"/>
+
+
+
+</RelativeLayout>
