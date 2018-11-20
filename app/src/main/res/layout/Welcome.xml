@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303F9F">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#512DA8"
+        android:layout_margin="10dp"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/photo"
+            android:layout_centerHorizontal="true"
+            style="@style/imageLook"
+            android:background="@drawable/round_button"
+            android:text="Your Photo"
+            android:textAlignment="center"/>
+
+
+        <EditText
+            android:id="@+id/email_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email address:"
+            android:layout_below="@id/photo"
+            android:drawableLeft="@drawable/Email"
+            style="@style/textLook"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/password_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password:"
+            android:layout_below="@id/email_icon"
+            android:drawableLeft="@drawable/Password"
+            style="@style/textLook"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/auth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_icon"
+            android:layout_centerHorizontal="true"
+            android:text="Authenticate"
+            android:textColor="#FFFFFF"
+            android:background="#B2EBF2"
+            android:layout_marginTop="30dp"
+            />
+
+
+        <TextView
+            android:id="@+id/text_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By registering, I accept the"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/auth"
+            android:layout_marginTop="60dp"
+            android:textColor="#616161"
+            />
+
+        <TextView
+            android:id="@+id/text_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms of Service"
+            android:layout_marginLeft="32dp"
+            android:layout_below="@id/text_b1"
+            android:textColor="#BDBDBD"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/text_b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:layout_below="@id/text_b1"
+            android:layout_toRightOf="@id/text_b2"
+            android:textColor="#616161"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:layout_marginLeft="4dp"
+            android:layout_below="@id/text_b1"
+            android:layout_toRightOf="@id/text_b3"
+            android:textColor="#BDBDBD"
+            android:textStyle="bold"
+            />
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

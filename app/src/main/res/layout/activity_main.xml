@@ -15,7 +15,8 @@
         android:layout_centerHorizontal="true"
         android:text="Sign up"
         android:textSize="20sp"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        />
 
     <TextView
         android:id="@+id/text2"
